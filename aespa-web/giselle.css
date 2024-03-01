@@ -1,0 +1,8 @@
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the default text color */
+    outline: none; /* Remove the outline when the link is focused */
+    background-color: azure;
+    color: black;
+}
+

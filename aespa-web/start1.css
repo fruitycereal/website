@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(12, 12, 12);
+    font-family: 'Poppins';
+}
+
+button {
+    color:rgb(0, 0, 0);
+    background-color: rgb(205, 0, 0);
+    width: 284px; /* Set the desired width */
+    height: 75px; /* Set the desired height */
+    font-size: 40px;
+    font-family: 'Poppins';
+    border-radius: 7px;
+    text-align: center;
+    display: block;
+    margin: 200px auto 0;
+    border-color: rgb(205, 0, 0);   
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the default text color */
+    outline: none; /* Remove the outline when the link is focused */
+    background-color: azure;
+    color: black;
+}
