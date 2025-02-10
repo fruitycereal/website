@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FAFFF2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.header {
+    background-color: #A9C46C;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.header h2 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.top-right-button {
+    background-color: #809D3C;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.top-right-button:hover {
+    background-color: #60762d;
+}
+
+
+.project-form {
+    background-color: #c1d989;
+    padding: 30px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-form label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.project-form input, 
+.project-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.project-form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.project-form button {
+    background-color: #809D3C;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.project-form button:hover {
+    background-color: #60762d;
+}
+
+
+@media (max-width: 768px) {
+    .header h2 {
+        font-size: 24px;
+    }
+
+    .project-form {
+        padding: 20px;
+    }
+
+    .project-form input, 
+    .project-form textarea {
+        font-size: 14px;
+    }
+
+    .project-form button {
+        font-size: 14px;
+    }
+}
